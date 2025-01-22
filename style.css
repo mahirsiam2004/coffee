@@ -146,3 +146,42 @@ margin: 15px 0;
     font-weight: bold;
     color: var(--text-color);
 }
+.price span{
+    font-size: 17px;
+     font-weight: 400;
+     color: var(--main-color);
+     margin-left: 10px;
+
+}
+.icons{
+    position: absolute;
+    top: 50%;
+    padding: 0 7%;
+    transform: translateY(-50);
+}
+.icons i{
+    display: block;
+    margin: 35px 0;
+    color: var(--text-color);
+    font-size: 23px;
+    transition: all .6s ;
+}
+.icons i:hover{
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+.scroll{
+    position: absolute;
+    top: 92%;
+    right: 50%;
+    transform: translateY(-50%);
+}
+.scroll a{
+    font-size: 16px;
+    color: var(--text-color);
+}
+.scroll i{
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 6px;
+}
